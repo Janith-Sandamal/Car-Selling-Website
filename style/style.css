@@ -22,3 +22,11 @@
     text-transform: capitalize;
     transition: all 0.2s linear;
 }
+
+/* Style for HTML tag */
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
