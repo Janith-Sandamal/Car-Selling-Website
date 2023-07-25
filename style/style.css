@@ -30,3 +30,88 @@ html {
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
+
+/* Style for btn */
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background-color: var(--light-yellow);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+/* Style for btn on hover */
+.btn:hover {
+    background-color: var(--yellow);
+}
+
+/* Styles for header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 9%;
+    z-index: 999;
+    background: #fff;
+}
+
+/* Styles for Header Logo */
+.header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+    font-weight: bolder;
+}
+
+/* Style for header logo span tag */
+.header .logo span{
+    color: var(--yellow);
+}
+
+/* Styles for header navbar a tag*/
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--black);
+    font-weight: 500;
+    margin: 0 1rem;
+}
+
+/* Styles for header navbar a tag on hover */
+.header .navbar a:hover{
+    color: var(--yellow);
+}
+
+/* Styele for header btn */
+.header .btn{
+    margin-top: 0;
+}
+
+.header #login-btn i{
+    font-size: 2.5rem;
+    color: var(--light-color);
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
