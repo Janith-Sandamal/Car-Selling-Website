@@ -469,7 +469,59 @@ section{
     color: var(--black);
     font-size: 2.5rem;
 }
-    
+
+/* Styles for newsletter section */
+
+.newsletter{
+    padding: 6rem 2rem;
+    text-align: center;
+    background: url(../assets/images/newsletter.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.newsletter h3{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.newsletter p{
+    color: #eee;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.newsletter form{
+    margin: 1rem auto;
+    max-width: 60rem;
+    height: 5rem;
+    display: flex;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    border-radius: 5rem;
+}
+
+.newsletter form input[type="email"]{
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.newsletter form input[type="submit"]{
+    width: 17rem;
+    height: 100%;
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background: var(--light-yellow);
+    cursor: pointer;
+}
+
+.newsletter form input[type="submit"]:hover{
+    background: var(--yellow);
+}
 
 
 
