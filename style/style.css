@@ -144,6 +144,10 @@ html {
     
     }
 
+    #menu-btn.fa-times{
+        transform: rotate(180deg);
+    }
+
     .header #login-btn i{
         display: block;
     }
@@ -160,6 +164,10 @@ html {
         background:#fff;
         border-top: var(--border);
         clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
     .header .navbar a{
