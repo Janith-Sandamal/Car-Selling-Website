@@ -39,7 +39,7 @@ window.onload = () =>{
 
 // js function for home page parallax effect
 
-document.querySelector('.home').addEventListener('mousemove', () => {
+document.querySelector('.home').addEventListener('mousemove', (e) => {
     document.querySelectorAll('.home-parallax').forEach(elm => {
         let speed = elm.getAttribute('data-speed');
 
@@ -47,5 +47,12 @@ document.querySelector('.home').addEventListener('mousemove', () => {
         let y = (window.innerHeight - e.pageY*speed)/90;
 
         elm.style.transform = `translateX(${x}px) translateY(${y}px)`;
+    });
+});
+
+document.querySelector('.home').addEventListener('mouseleave', () => {
+    document.querySelectorAll('.home-parallax').forEach(elm => {
+        // Reset the parallax effect by setting transform to initial position (0px).
+        elm.style.transform = 'translateX(0px) translateY(0px)';
     });
 });

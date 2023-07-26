@@ -204,13 +204,13 @@ section{
 
 /* Styles for Home section */
 .home{
-    padding-top: 6rem;
+    padding-top: 8rem;
     text-align: center;
     overflow-x: hidden;
 }
 
 .home h1{
-    font-size: 7.5vw;
+    font-size: 5.5vw;
     text-transform: uppercase;
     color: var(--black);
 }
