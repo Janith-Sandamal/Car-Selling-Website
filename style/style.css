@@ -305,6 +305,62 @@ section{
     color: #eee;
 }
 
+/* Styles for vehicles section  */
+
+.vehicles .vehicles-slider{
+    padding-bottom: 5rem;
+}
+
+.vehicles .vehicles-slider .box{
+    text-align: center;
+    width: 30rem;
+}
+
+.vehicles .vehicles-slider .box img{
+    width: 100%;
+    /* opacity: .5;
+    transform: scale(.8); */
+}
+
+.vehicles .vehicles-slider .box .content{
+    /* transform: scale(0); */
+    padding-top: 1rem;
+}
+
+.vehicles .vehicles-slider .box .content h3{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.vehicles .vehicles-slider .box .content .price{
+    color: var(--yellow);
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    font-weight: bolder;
+}
+
+.vehicles .vehicles-slider .box .content .price span{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.vehicles .vehicles-slider .box .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-top: var(--border);
+    padding-top: 1.5rem;
+    
+}
+
+.vehicles .vehicles-slider .box .content p span{
+    color: var(--yellow);
+    font-size: .8rem;
+    padding: 0 .5rem;
+}
+
+
 
 
 
