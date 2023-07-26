@@ -100,6 +100,16 @@ html {
     display: none;
 }
 
+/* Styles for toggel menu */
+
+#menu-btn{
+    color: var(--light-color);
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: none;
+
+}
+
 
 
 
@@ -129,6 +139,11 @@ html {
 
 @media (max-width: 768px){
 
+    #menu-btn{
+        display: block;
+    
+    }
+
     .header #login-btn i{
         display: block;
     }
@@ -144,6 +159,7 @@ html {
         right: 0;
         background:#fff;
         border-top: var(--border);
+        clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
     .header .navbar a{
