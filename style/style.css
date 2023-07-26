@@ -31,6 +31,10 @@ html {
     scroll-behavior: smooth;
 }
 
+section{
+    padding: 1rem 21%;
+}
+
 /* Style for btn */
 .btn {
     display: inline-block;
@@ -198,7 +202,23 @@ html {
     cursor: pointer;
 }
 
+/* Styles for Home section */
+.home{
+    padding-top: 6rem;
+    text-align: center;
+    overflow-x: hidden;
+}
 
+.home h1{
+    font-size: 7.5vw;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.home img{
+    width: 90%;
+    margin: 1rem 0;
+}
 
 
 
@@ -209,6 +229,13 @@ html {
 
 
 /* Media queries */
+
+@media (max-width: 1400px){
+
+    .home{
+        padding-top: 8rem;
+    }
+}
 
 @media (max-width: 991px){
 
@@ -221,6 +248,10 @@ html {
     }
 
     .header.active{
+        padding: 2rem;
+    }
+
+    section{
         padding: 2rem;
     }
 }
