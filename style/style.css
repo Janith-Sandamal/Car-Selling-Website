@@ -111,6 +111,12 @@ html {
 }
 
 
+.header.active{
+    box-shadow: var(--box-shadow);
+    padding: 2rem 9%;
+}
+
+
 
 
 
@@ -133,6 +139,10 @@ html {
     }
 
     .header{
+        padding: 2rem;
+    }
+
+    .header.active{
         padding: 2rem;
     }
 }
